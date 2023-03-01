@@ -1,0 +1,446 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 15613 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Logiciels e-artsup\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/demat/Desktop/BibliothèqueBlocking
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51438
+Successfully changed project path to: C:/Users/demat/Desktop/BibliothèqueBlocking
+C:/Users/demat/Desktop/BibliothèqueBlocking
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25080] Host "[IP] 10.109.223.100 [Port] 0 [Flags] 2 [Guid] 2071472374 [EditorId] 2071472374 [Version] 1048832 [Id] WindowsEditor(7,PC-Portable-Mylan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25080] Host "[IP] 10.109.223.100 [Port] 0 [Flags] 2 [Guid] 2071472374 [EditorId] 2071472374 [Version] 1048832 [Id] WindowsEditor(7,PC-Portable-Mylan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 104.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Logiciels e-artsup/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/demat/Desktop/BibliothèqueBlocking/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Logiciels e-artsup/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Logiciels e-artsup/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Logiciels e-artsup/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Logiciels e-artsup/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002001 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.504 seconds
+Domain Reload Profiling:
+	ReloadAssembly (505ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003380 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\demat\Desktop\BibliothèqueBlocking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\demat\Desktop\BibliothèqueBlocking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Domain Reload Profiling:
+	ReloadAssembly (770ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.1 MB). Loaded Objects now: 3915.
+Memory consumption went from 127.4 MB to 72.3 MB.
+Total: 5.721100 ms (FindLiveObjects: 0.295900 ms CreateObjectMapping: 0.155300 ms MarkObjects: 5.066100 ms  DeleteObjects: 0.202000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62832.612466 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Scripts/Polyperfect.Animals.asmdef
+  artifactKey: Guid(0bccafc2a66e4e14bba43e125755e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Scripts/Polyperfect.Animals.asmdef using Guid(0bccafc2a66e4e14bba43e125755e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9c5d8e9afda973d8828d7fa16cd142') in 0.028369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.470002 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/africa.ogg
+  artifactKey: Guid(aa6444cb66c494d0ebdb029828a157be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/africa.ogg using Guid(aa6444cb66c494d0ebdb029828a157be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba0dc9af8058a82f6054e9f1eec3b26') in 0.128580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/cow-background.ogg
+  artifactKey: Guid(c16e73485744543c2b47600223c311f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/cow-background.ogg using Guid(c16e73485744543c2b47600223c311f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4320250b429accfa08e7767a20b6eccb') in 0.015314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/dog-whining.ogg
+  artifactKey: Guid(23a85d7a4180c4a4384a9f9da0c18caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/dog-whining.ogg using Guid(23a85d7a4180c4a4384a9f9da0c18caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8d75350b09a5dc4b8b8e6d3c73ab23') in 0.014928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/wolf-howl.ogg
+  artifactKey: Guid(e4aa6f48a36014dcc9d111bf13e6c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/wolf-howl.ogg using Guid(e4aa6f48a36014dcc9d111bf13e6c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fd5847871ee355accdfaea75111492') in 0.015436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/elephant-run.ogg
+  artifactKey: Guid(de958d1389c5f4943b29af6a49318cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/elephant-run.ogg using Guid(de958d1389c5f4943b29af6a49318cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f187e832cde5e28bfe5ffb272ad503') in 0.016063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/cat-hungry.ogg
+  artifactKey: Guid(0f9731ce1b920410ca371556bbc29202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/cat-hungry.ogg using Guid(0f9731ce1b920410ca371556bbc29202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d3931f0a0ebd8ba27846b5ab83b0f7') in 0.013907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/horse-foot.ogg
+  artifactKey: Guid(9968f065c9f3d4aebadb78a35d7cfd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/horse-foot.ogg using Guid(9968f065c9f3d4aebadb78a35d7cfd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7c160cbeca845b701c5ca444900544') in 0.013935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/elephant-trumpeting-calm.ogg
+  artifactKey: Guid(577532471b3374967adb1ff2620e2761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/elephant-trumpeting-calm.ogg using Guid(577532471b3374967adb1ff2620e2761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda069355644b3f780005191dbe6dced') in 0.018376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/cow-bell.ogg
+  artifactKey: Guid(7a8ecf224348340ea938d9a55928756b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/cow-bell.ogg using Guid(7a8ecf224348340ea938d9a55928756b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45b1567b460740224413afe76d6910b') in 0.013174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/elephant-stomp.ogg
+  artifactKey: Guid(612962daa1f8842159872a600c011bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/elephant-stomp.ogg using Guid(612962daa1f8842159872a600c011bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c96c1c4dbdb8863ab5dd55c8ddefe8') in 0.012994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.732256 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Navmesh/01 Models.asset
+  artifactKey: Guid(4d15c1dcf91ec284db2b6f3fc4315135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Navmesh/01 Models.asset using Guid(4d15c1dcf91ec284db2b6f3fc4315135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d1d7ca7186b6dc0aecb663df0e6f1d') in 0.007438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.729202 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Materials/atlas-LPAA.mat
+  artifactKey: Guid(6490ce01a588c40eab913cfdd63ca606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Materials/atlas-LPAA.mat using Guid(6490ce01a588c40eab913cfdd63ca606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b466eab6063ec774d488f46c074553') in 0.061695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.197751 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals
+  artifactKey: Guid(567be5e4cc10a484a9f59dc36070883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals using Guid(567be5e4cc10a484a9f59dc36070883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb48f2409270d39707568c9b6db6ea85') in 0.006634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028035 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Anteater.prefab
+  artifactKey: Guid(36bbba94a6e2623429a9bf08ca2a07a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Anteater.prefab using Guid(36bbba94a6e2623429a9bf08ca2a07a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157107cd3739ee4bac54ceb5812ba405') in 0.160743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Brown.prefab
+  artifactKey: Guid(166de651131410845bbf9789550f6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Brown.prefab using Guid(166de651131410845bbf9789550f6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164cce1f8845f9b930cf081190c3c4ce') in 0.115293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane.prefab
+  artifactKey: Guid(3530aa07ed1fa41bd899b6d9780d97ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane.prefab using Guid(3530aa07ed1fa41bd899b6d9780d97ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3699806ce1d809e4b51b00d96633320c') in 0.169279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse White.prefab
+  artifactKey: Guid(c6a433e6f4854b345bc0e8a730197a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse White.prefab using Guid(c6a433e6f4854b345bc0e8a730197a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1af3558b66001324ce19a608092ecee') in 0.068259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer.prefab
+  artifactKey: Guid(3a9b422ae305e3b49aadf8ece0bfa915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer.prefab using Guid(3a9b422ae305e3b49aadf8ece0bfa915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa5a4301dc365dc2e7525e4b2c8e79b') in 0.032384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua Black.prefab
+  artifactKey: Guid(6ed651d2201001a41b3a948ea0165f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua Black.prefab using Guid(6ed651d2201001a41b3a948ea0165f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020349273422a4edd1cf3556b13ab806') in 0.055841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Brown.prefab
+  artifactKey: Guid(3e862f40cc8ad65468baa9837635c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Brown.prefab using Guid(3e862f40cc8ad65468baa9837635c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9da3536684f73ce1aaeccbf5424ea2d') in 0.072190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Elephant.prefab
+  artifactKey: Guid(d19dd43872ee43b4896d75d23e9db9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Elephant.prefab using Guid(d19dd43872ee43b4896d75d23e9db9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25c1d07430daff557bf0b8026fa98d3') in 0.106760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat.prefab
+  artifactKey: Guid(9aa610f370cd8454a90934998b7440ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat.prefab using Guid(9aa610f370cd8454a90934998b7440ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3fc409d7a57dbbf0d5a3e68407b182') in 0.202701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Black.prefab
+  artifactKey: Guid(57a429f4b3b3c754e975b792ed61d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Black.prefab using Guid(57a429f4b3b3c754e975b792ed61d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86ad5ba72aff9a4fd9df17314a35cb9') in 0.129657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.418630 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rhino_Rig.prefab
+  artifactKey: Guid(8c8a22ddff71f284b87ca2537e62b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rhino_Rig.prefab using Guid(8c8a22ddff71f284b87ca2537e62b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8ad7d0e9664ce45548d08f17c87030') in 0.027656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Red.prefab
+  artifactKey: Guid(b18f11080da58d0449ec9da835a6123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Red.prefab using Guid(b18f11080da58d0449ec9da835a6123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e0678e458caf50415ac8ab756cbfbd') in 0.406770 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003096 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\demat\Desktop\BibliothèqueBlocking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\demat\Desktop\BibliothèqueBlocking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (974ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (126.8 KB). Loaded Objects now: 3962.
+Memory consumption went from 142.5 MB to 142.4 MB.
+Total: 3.247200 ms (FindLiveObjects: 0.262300 ms CreateObjectMapping: 0.122900 ms MarkObjects: 2.673300 ms  DeleteObjects: 0.187200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208.946969 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals
+  artifactKey: Guid(73169176982833e43a929a7398cb4b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals using Guid(73169176982833e43a929a7398cb4b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c1d41cceda6d2c30671cc86b395554') in 0.014525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.730361 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props
+  artifactKey: Guid(46e791cf325e44ac0932227d402021c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props using Guid(46e791cf325e44ac0932227d402021c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828453a633b6618b0ee4cac860093a44') in 0.007226 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003472 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\demat\Desktop\BibliothèqueBlocking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\demat\Desktop\BibliothèqueBlocking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Domain Reload Profiling:
+	ReloadAssembly (897ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (126.1 KB). Loaded Objects now: 3965.
+Memory consumption went from 142.5 MB to 142.4 MB.
+Total: 3.018400 ms (FindLiveObjects: 0.342900 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.391000 ms  DeleteObjects: 0.168000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
